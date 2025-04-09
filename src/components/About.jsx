@@ -27,7 +27,7 @@ const About = () => {
   });
 
   return (
-    <div id="About" className="relative min-h-screen w-screen bg-white">
+    <div id="about" className="relative min-h-screen w-screen bg-white">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-4">
         <h2 className="font-general text-sm uppercase md:text-[10px]">
           Welcome to Zentry
