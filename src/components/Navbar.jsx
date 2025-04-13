@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import { TiLocationArrow } from "react-icons/ti";
-import Button from "./Button";
+import Button from "./button";
 import { useWindowScroll } from "react-use";
 import gsap from "gsap";
 
