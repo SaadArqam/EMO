@@ -1,0 +1,25 @@
+import React from "react";
+
+const RoundedCorners = () => {
+  return (
+    <svg width="0" height="0">
+      <defs>
+        <filter id="flt_tag">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+          <feColorMatrix
+            in="blur"
+            type="matrix"
+            values="1 0 0 0 0  
+                    0 1 0 0 0  
+                    0 0 1 0 0  
+                    0 0 0 19 -9"
+            result="flt_tag"
+          />
+          <feComposite in="SourceGraphic" in2="flt_tag" operator="atop" />
+        </filter>
+      </defs>
+    </svg>
+  );
+};
+
+export default RoundedCorners;

@@ -4,7 +4,7 @@ import Button from "./Button";
 import { useWindowScroll } from "react-use";
 import gsap from "gsap";
 
-const navItems = ["Home", "About", "Products", "Contact"];
+const navItems = ["Hero", "About", "Story", "Contact"];
 
 const Navbar = () => {
   const navContainerRef = useRef(null);
