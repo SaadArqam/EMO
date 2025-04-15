@@ -84,10 +84,10 @@ const Features = () => {
               src="videos/feature-2.mp4"
               title={
                 <>
-                  zig<b>m</b>a
+                  pix<b>o</b>ra
                 </>
               }
-              description="A new way to play, earn, and collect in the metaverse"
+              description="Reimagining Reality, One Pixel at a Time."
             />
           </BentoTilt>
           <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
