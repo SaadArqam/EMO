@@ -15,7 +15,7 @@ const Contact = () => {
           <ImageClipBox
             src="/img/contact-1.webp"
             clipClass="contact-clip-path-1"
-          />
+          />1
           <ImageClipBox
             src="/img/contact-2.webp"
             clipClass="contact-clip-path-2 lg:translate-y-40 translate-y-60"

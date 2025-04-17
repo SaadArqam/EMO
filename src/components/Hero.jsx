@@ -132,7 +132,7 @@ const Hero = () => {
         />
 
         <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
-          Livi<b>n</b>g
+          Livi<b>n</b>g <b>A</b>I
         </h1>
 
         <div className="absolute left-0 top-0 z-40 size-full">
@@ -156,7 +156,7 @@ const Hero = () => {
         </div>
       </div>
       <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
-        Livi<b>n</b>g
+        Livi<b>n</b>g <b>A</b>I
       </h1>
     </div>
   );
