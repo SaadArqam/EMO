@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import { TiLocationArrow } from "react-icons/ti";
+import { Link, useLocation } from "react-router-dom";
 import Button from "./button";
 import { useWindowScroll } from "react-use";
 import gsap from "gsap";
@@ -7,6 +8,7 @@ import gsap from "gsap";
 const navItems = ["Hero", "About", "Story", "Contact"];
 
 const Navbar = () => {
+  const location = useLocation();
   const navContainerRef = useRef(null);
   const audioElementRef = useRef(null);
   const lastScrollYRef = useRef(0);
@@ -58,12 +60,27 @@ const Navbar = () => {
     ${currentScrollY > 0 && isNavVisible ? "bg-black rounded-2xl" : ""}
   `;
 
+  // Function to determine the correct navigation link for each nav item
+  const getNavLink = (item) => {
+    const itemLower = item.toLowerCase();
+
+    // If we're not on the homepage, we need to navigate to the homepage first
+    if (location.pathname !== "/") {
+      return `/${itemLower === "hero" ? "" : `#${itemLower}`}`;
+    }
+
+    // If we're already on the homepage, we can just use anchors
+    return `#${itemLower}`;
+  };
+
   return (
     <div ref={navContainerRef} className={navClasses}>
       <header className="absolute top-1/2 w-full -translate-y-1/2">
         <nav className="flex size-full items-center justify-between p-4">
           <div className="flex items-center gap-7">
-            <img src="/img/logo.png" alt="logo" className="w-10" />
+            <Link to="/">
+              <img src="/img/logo.png" alt="logo" className="w-10" />
+            </Link>
 
             <Button
               id="products-button"
@@ -78,13 +95,13 @@ const Navbar = () => {
           <div className="flex h-full items-center">
             <div className="hidden md:block">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item}
-                  href={`#${item.toLowerCase()}`}
+                  to={getNavLink(item)}
                   className="nav-hover-btn"
                 >
                   {item}
-                </a>
+                </Link>
               ))}
             </div>
 

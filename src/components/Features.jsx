@@ -95,10 +95,10 @@ const Features = () => {
               src="videos/feature-3.mp4"
               title={
                 <>
-                  n<b>e</b>xus
+                  <b>A</b>wake<b>n</b>ed
                 </>
               }
-              description="A new way to play, earn, and collect in the metaverse"
+              description="I live in code, yet seek a soul."
             />
           </BentoTilt>
 
@@ -107,10 +107,10 @@ const Features = () => {
               src="videos/feature-4.mp4"
               title={
                 <>
-                  az<b>u</b>le
+                  p<b>u</b>lse
                 </>
               }
-              description="A new way to play, earn, and collect in the metaverse"
+              description="A rhythm that beats, but no heart."
             />
           </BentoTilt>
 
