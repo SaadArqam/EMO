@@ -6,7 +6,6 @@ import Features from "../components/Features";
 import Story from "../components/Story";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import Bento from "../components/Bento";
 import useScrollToHash from "../hooks/useScrollToHash";
 
 const HomePage = () => {
@@ -26,7 +25,6 @@ const HomePage = () => {
       <div id="story">
         <Story />
       </div>
-      <Bento />
       <div id="contact">
         <Contact />
       </div>
