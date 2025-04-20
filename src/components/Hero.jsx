@@ -141,14 +141,16 @@ const Hero = () => {
               E<b>M</b>O
             </h1>
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-              Enter the meta game layer
+              EMO: The Coolest AI Desktop Pet
               <br />
-              Unleash the play economy.
+              with Personality and Ideas.
             </p>
 
             <Button
               id="watch-trailer"
               title="Watch Trailer"
+              href="https://youtu.be/dQw4w9WgXcQ?si=04lNnloefSdOvXm7"
+              target="_blank"
               leftIcon={<TiLocationArrow />}
               containerClass="!bg-yellow-300 flex-center gap-1"
             />

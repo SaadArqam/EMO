@@ -40,11 +40,12 @@ const About = () => {
 
         <div className="about-subtext">
           <p className="mb-2">
-            The Game of Games begins - your life, now an epic MMORPG
+            Built with multiple sensors and cutting-edge techs, EMO is a cool
+            desktop AI robot pet with character.
           </p>
           <p className="text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quos.
+            It can self-explore the world and react to you with 1000+ faces and
+            movements.
           </p>
         </div>
       </div>
