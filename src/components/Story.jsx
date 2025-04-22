@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import AnimatedTitle from "./AnimatedTitle";
 import gsap from "gsap";
 import RoundedCorners from "./RoundedCorners";
-import Button from "./button";
+import Button from "./Button";
 import { TiLocationArrow } from "react-icons/ti";
 
 const Story = () => {
@@ -85,12 +85,12 @@ const Story = () => {
 
             <div className="mt-5 flex flex-wrap gap-4">
               <Link to="/features">
-              <Button
-                id="realm-button"
-                title="Explore Features"
-                containerClass=""
-              />
-               </Link>
+                <Button
+                  id="realm-button"
+                  title="Explore Features"
+                  containerClass=""
+                />
+              </Link>
             </div>
           </div>
         </div>

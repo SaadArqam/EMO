@@ -1,5 +1,5 @@
 import AnimatedTitle from "./AnimatedTitle";
-import Button from "./button";
+import Button from "./Button";
 
 const ImageClipBox = ({ src, clipClass }) => (
   <div className={clipClass}>
@@ -15,7 +15,8 @@ const Contact = () => {
           <ImageClipBox
             src="/img/contact-1.webp"
             clipClass="contact-clip-path-1"
-          />1
+          />
+          1
           <ImageClipBox
             src="/img/contact-2.webp"
             clipClass="contact-clip-path-2 lg:translate-y-40 translate-y-60"
