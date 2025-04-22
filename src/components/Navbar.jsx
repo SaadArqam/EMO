@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import { TiLocationArrow } from "react-icons/ti";
 import { Link, useLocation } from "react-router-dom";
-import Button from "./button";
+import Button from "./Button";
 import { useWindowScroll } from "react-use";
 import gsap from "gsap";
 
