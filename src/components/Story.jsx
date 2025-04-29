@@ -47,7 +47,7 @@ const Story = () => {
     <section id="story" className="min-h-dvh w-screen bg-black text-blue-50">
       <div className="flex size-full flex-col items-center py-10 pb-24">
         <p className="font-general text-sm uppercase md:text-[10px]">
-          The multiverse ip world
+          The metaverse AI world
         </p>
 
         <div className="relative size-full">
@@ -79,11 +79,11 @@ const Story = () => {
         <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
             <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
-              hello welcome to wmo the living ai your personal romo mini bot who
-              have emotions nad can do actions
+              Hey Welcome to the realm of EMO!
+              We are happy to invite you to this exciting journey with us.
             </p>
 
-            <div className="mt-5 flex flex-wrap gap-4">
+            <div className="mt-5 flex flex-wrap gap-5">
               <Link to="/features">
                 <Button
                   id="realm-button"

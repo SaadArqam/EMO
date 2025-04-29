@@ -75,7 +75,7 @@ const Features = () => {
                 radi<b>n</b>t
               </>
             }
-            description="A new way to play, earn, and collect in the metaverse"
+            description="A new way to play and learn in AI verse"
           />
         </BentoTilt>
         <div className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7">
